@@ -1,0 +1,63 @@
+
+<div class="m-index-cont">
+	
+	<header>
+		<ul>
+			<li class="yo-ico" action-type="show.sidebar">&#xe798;</li>
+			<li>我的首页</li>
+			<li class="yo-ico">&#xe610;</li>
+		</ul>
+	</header>
+	
+	<section spa-widget="scroll" class="artSection" data-scroll-id="homeHotScroll" >
+		<div>
+		<div class="head">
+           <img src="/duorou/images/arrow.png"/>
+           <span>下拉刷新...</span>
+        </div>
+		<div class="swiper-container swiperss" id="ban-swiper">
+	        <div class="swiper-wrapper">
+	            <div class="swiper-slide">
+					<img src="/duorou/images/sw1.jpg"/>
+				</div>
+	            <div class="swiper-slide">
+	            	<img src="/duorou/images/sw2.jpeg"/>
+	            </div>
+	        </div>
+	        <div class="swiper-pagination"></div>
+	    </div>
+		
+		<dl ms-repeat="homeList">
+			<dt ms-text="el.tit">没想到多肉还可以这么玩</dt>
+			<dd>
+				<div><img ms-src="el.img1"/></div>
+				<div><img ms-src="el.img2"/></div>
+				<div><img ms-src="el.img3"/></div>
+			</dd>
+			<p>4小时前</p>
+		</dl>
+		
+		<figure ms-repeat="homeListDl">
+			<div><img ms-src="el.img" /></div>
+			<figcaption>
+				<h3 ms-text="el.tit">冬日夕阳</h3>
+				<p ms-text="el.date">2016-03-22</p>
+			</figcaption>
+		</figure>
+		<figure>
+			<div><img src='/duorou/images/sw2.jpeg' /></div>
+			<figcaption>
+				<h3>冬日夕阳</h3>
+				<p>2016-03-22</p>
+			</figcaption>
+		</figure>
+		<div class="foot">
+           <img src="/duorou/images/arrow.png"/>
+            <span>上拉加载更多...</span>
+        </div>
+        <div class="yo-loading" ms-visible='isShowLoading'>
+           <div class="inner"><i class="yo-ico"></i><span>加载中...</span></div>
+        </div>
+		</div>
+	</section>
+</div>

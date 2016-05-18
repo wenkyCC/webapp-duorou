@@ -1,0 +1,13 @@
+@charset "utf-8";
+
+@import "./layout/layout.scss";
+@import "./core/swiper-3.3.1.min.css";
+
+//引用视图文件
+@import "./module/index.scss";
+@import "./module/article.scss";
+@import "./module/talk.scss";
+@import "./module/sidebar.scss";
+@import "./module/guide.scss";
+@import "./module/mask.scss";
+@import "./module/msg.scss";

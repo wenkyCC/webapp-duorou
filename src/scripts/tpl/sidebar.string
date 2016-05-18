@@ -1,0 +1,12 @@
+<nav id="aa">
+	<li>
+		<h1><img src="/duorou/images/log.png"/></h1>
+		<span>多肉天堂</span>
+	</li>
+	<li class="navActive" action-type="tap.switch" data-tag="talk">
+		<p>我的首页</p>
+		<span>所有栏目的更新</span>
+	</li>
+	<li>品种分类</li>
+	<li>养护知识</li>
+</nav>

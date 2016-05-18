@@ -1,0 +1,21 @@
+<div class="userMsg">
+	<div class="msg-hed">
+		<p>更多</p>
+		<h2><a></a></h2>
+		<ul>
+			<li>登录</li>
+			<li>注册</li>
+		</ul>
+	</div>
+	<div class="swiper-container swiperss" id="msg-swiper">
+	    <div class="swiper-wrapper">
+	       <div class="swiper-slide">
+				111
+			</div>
+	        <div class="swiper-slide">
+	            22
+	        </div>
+	     </div>
+	    <div class="swiper-pagination"></div>
+	</div>
+</div>

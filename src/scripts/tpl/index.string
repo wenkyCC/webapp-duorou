@@ -1,0 +1,30 @@
+<div class="m-index">
+	
+	<div class="m-index-cont">
+	
+	</div>
+	<footer>
+		<ul>
+			<li class="active" action-type="tap.switch" data-tag="article">
+				<i class="yo-ico">&#xe605;</i>
+				<b>文章</b>
+			</li>
+			<li action-type="tap.switch" data-tag="talk">
+				<i class="yo-ico">&#xe63e;</i>
+				<b>讨论区</b>
+			</li>
+			<li action-type="tap.switch" data-tag="msg">
+				<i class="yo-ico">&#xe893;</i>
+				<b>消息</b>
+			</li>
+			<li action-type="tap.switch" data-tag="my">
+				<i class="yo-ico">&#xe66d;</i>
+				<b>我</b>
+			</li>
+			<li action-type="tap.switch" data-tag="more">
+				<i class="yo-ico">&#xe7a7;</i>
+				<b>更多</b>
+			</li>
+		</ul>
+	</footer>
+</div>

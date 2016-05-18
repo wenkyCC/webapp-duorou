@@ -1,0 +1,21 @@
+@charset "utf-8";
+
+@import "../core/reset.scss";
+
+//视图
+   //Config
+spa-app {
+    position: absolute;
+    overflow: hidden;
+}
+
+spa-view {
+    position: absolute;
+    z-index: 0;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    @include flexbox(flex);
+    @include flex-direction(column);
+}

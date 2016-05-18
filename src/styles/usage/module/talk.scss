@@ -1,0 +1,165 @@
+.talkcont{
+    @include flexbox();
+    @include flex-direction(column);
+    
+     header{
+        width:100%;
+        height:.44rem;
+        background:#3498db;
+        ul{
+            width:100%;
+            height:.44rem;
+            @include flexbox();
+            li:not(:nth-child(2)){
+               width: .44rem;
+                text-align: center;
+                line-height: .44rem;
+                color:white;
+            }
+            li:nth-child(1){
+                font-size:.26rem;
+            }
+            li:nth-child(3){
+                font-size:.22rem;
+            }
+            li:nth-child(2){
+                @include flex();
+                text-align:center;
+                line-height:.44rem;
+                font-size:.18rem;
+                color:white;
+                font-weight:bold;
+            }
+        }
+    }
+    .talkSection{
+      @include flex();
+        width:100%;
+        margin-bottom:.46rem;
+        overflow:hidden;
+        padding:.1rem;
+        @include box-sizing(border-box);
+        background:#F2F7FA;
+        >div{
+            padding-bottom:.1rem;
+        }
+        .talklis{
+            width:100%;
+            padding-bottom:.05rem;
+            border:1px solid #C8DAE5;
+            background:#fff;
+            margin-bottom:.1rem;
+            dl{
+                width:100%;
+                height:.43rem;
+                @include flexbox();
+                dt{
+                    width:.43rem;
+                    height:.43rem;
+                    padding:.08rem;
+                    @include box-sizing(border-box);
+                    div{
+                        width:.3rem;
+                        height:.3rem;
+                        background:yellow;
+                        border-radius:50%
+                    }
+                }
+                dd{
+                    @include flex();
+                    height:.43rem;
+                    padding-top:.08rem;
+                    h3{
+                        color:#001329;
+                        font-size:.16rem;
+                        word-spacing:.05rem;
+                        letter-spacing:.02rem;
+                    }
+                    p{
+                        font-size:.12rem;
+                        color:#8098A7;
+                    }
+                }
+            }
+            figure{
+                width:100%;
+                margin-top:.1rem;
+                padding-left:.05rem;
+                padding-bottom:.1rem;
+                @include box-sizing(border-box);
+                figcaption{
+                    width:100%;
+                    font-size:.15rem;
+                    color:#001027;
+                    font-weight:bold;
+                    line-height:.17rem;
+                    padding:.1rem .05rem;
+                }
+                div{
+                    width:100%;
+                    @include flexbox();
+                    @include flex-direction(column);
+                    margin-top:.1rem;
+                   ul{
+                       width:80%;
+                       height:.8rem;
+                       margin-bottom:.05rem;
+                       @include flexbox();
+                       li{
+                           @include flex();
+                           height:.8rem;
+                           margin-right:.05rem;
+                           
+                           img{
+                               width:100%;
+                               height:100%;
+                           }
+                       }
+                   }
+                }
+            }
+            ul{
+                width:100%;
+                height:.25rem;
+                @include flexbox();
+                border-top:1px solid #C2D6E4;
+                border-bottom:1px solid #C2D6E4;
+                background:#F9FDFF;
+                li{
+                    @include flex();
+                    @include flexbox();
+                    border-right:1px solid #C2D6E4;
+                    i,b{
+                        @include flex();
+                        display:block;
+                        line-height:.25rem;
+                    }
+                    i{
+                        text-align:center;
+                    }
+                    b{
+                        font-size:.14rem;
+                        font-weight:normal;
+                        text-align:left;
+                    }
+                   &:nth-child(4){
+                       border-right:none;
+                   } 
+                }
+            }
+            .talking{
+                width:100%;
+                padding:.05rem;
+                h4{
+                    font-size:.13rem;
+                    font-weight:normal;
+                    color:#849AAA;
+                }
+                p{
+                    a{font-size:.13rem;color:#849AAA;}
+                    em{font-size:.14rem;color:#1D394C;}
+                }
+            }
+        }
+    }
+}
